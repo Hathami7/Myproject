@@ -1,0 +1,134 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  
+    }
+    body{
+   
+        display: flex;
+    background-color: rgb(228, 228, 247)
+    
+    }
+    
+    ul{
+        position: relative;
+        height: 95%;
+    }
+    
+    
+   
+    .menu{
+        background-color: #162938;
+        width: 40px;
+        height: 99vh;
+        padding: 20px;
+        overflow: hidden;
+       transition: .5s;
+    }
+    ul li a{
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        padding: 12px;
+        margin: 10px 0;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        transition: .5s;
+    }
+    ul li a:hover{
+        background-color: #ffffff55;
+    }
+    .log-out{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        
+    }
+    .log-out a:hover{
+        background-color: #a00;
+    }
+    ul li a i{
+    font-size: 25px;
+    color: #fff;
+    
+    }
+   
+    
+   
+    .menu:hover{
+    width: 260px;
+    }
+    
+  
+    
+      
+      
+            
+         
+  
+            header{
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 1px;
+                padding: 20px 100px;
+                display: flex;
+                background: #162938;
+                justify-content: space-between;
+                align-items: center;
+                z-index: 99;
+            }
+
+           
+  .Connact{
+    margin-top: 100px;
+  }
+  .Connact-list{
+    width: 130%;
+    margin-top: 10px;
+    margin-right: 177px;
+    background: #d5d5f2;
+    border-radius: 10px;
+  }
+ 
+  .table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    min-width: 100%;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+
+  .table thead tr{
+    color: #000000;
+    background: #c6c6f0;
+    text-align: center;
+    font-weight: bold;  
+  }
+ 
+ 
+  .table th,.table td{
+    padding: 15px 17px;
+    text-align: center;
+  }
+  
+ 
+  
+  .table tbody tr{
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+  }
+  
+  
+  
+  
+

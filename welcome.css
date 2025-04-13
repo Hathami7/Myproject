@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+
+}
+body{
+    background: linear-gradient(rgba(41, 40, 40, 0.5),rgba(82, 77, 77, 0.5)),url(hom2.jpg);    
+    background-size: cover;
+    background-repeat:no-repeat ;
+    
+
+}
+content{
+    position: sticky;
+    top:0;
+}
+
+
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:70px ;
+	padding: 20px 100px;
+	display: flex;
+	background: #21294D;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 99;
+}
+
+.logo{
+	position: sticky;
+    top:0;
+    left: 0;
+}
+
+.navigation a{
+	position: relative;
+	font-size: 1.1em;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 40px;
+}
+.navigation a::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -6px;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	border-radius: 5px;
+	transform-origin: right;
+	transform: scaleX(0);
+	transition: transform .5s;
+}
+
+.navigation a:hover::after{
+	transform-origin: left;
+	transform: scaleX(1);
+}
+
+.navigation .btnLogin-popup {
+	width: 130px;
+	height: 50px;
+	background: transparent;
+	border: 2px solid #fff;
+	outline: none;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 1.1em;
+	color: #fff;
+	font-weight: 500;
+	margin-left: 40px;
+	transition: .5s;
+}
+
+.navigation .btnLogin-popup:hover {
+	background: #fff;
+	color: #21294D;
+}
+.box {
+   
+    margin-top: 100px;
+    margin-left:140px ;
+    height:28vh;
+    width: 300px; 
+    position:relative;
+    display: block;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 30px; 
+    padding:10px; 
+
+     }
+    
+    
+
+button{
+    align-items: center;
+    background-color: 21294D;
+    color: white;
+    font-size: 20px; 
+    padding:5px;  
+
+}
+
+.regbox{
+   margin-top: 60px;
+   margin-left:140px ;
+   height:35vh;
+    width: 900px; 
+ position:relative;
+        display: block;
+        background: rgba(109, 107, 107, 0.4);
+        box-shadow: 0 15px 20bx rgba(0, 0, 0, .2);
+        text-align: center;
+        letter-spacing: 2px;
+    }
+p , a{
+    text-align: center;
+    font-weight: bold;
+    color: white; 
+    padding:10px;
+    font-size: 20px;
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+    color: white; 
+    padding:10px;
+    font-size: 25px;
+
+}
+
+
+
+
+

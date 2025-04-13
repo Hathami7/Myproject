@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>تسجيل الدخول</title>
+	<link rel = "stylesheet" type = "text/css" href = "loginp.css"> 
+</head>
+<body>
+	<header>
+		<h2 class="logo"><img src="../logo1.png" height="60" width="110"></h2>
+		<nav class="navigation">
+			<a href="loginp student.html">الطلاب</a>
+			<a href="loginp company.html">مراكز التدريب</a>
+			<a href="loginp cordentator.html"> مسؤول وحده التدريب</a>
+			<a href="loginp supervisor.html">  مشرف الطلاب</a>
+			 <button class="btnLogin-popup">تسجيل الدخول</button>
+		</nav>
+	</header>
+
+	<div class="wrapper">
+         <span class="icon-close"> 
+         	<ion-icon name="close-outline"></ion-icon>
+         </span>
+
+		<div class="form-box login">
+			<h2>تسجيل الدخول</h2>
+			<form action="#">
+				<div class="input-box">
+					<span class="icon">
+						<ion-icon name="business-outline"></ion-icon>
+					</span>
+					<input type="name" required>
+					<label> اسم الشركة/الجهة</label>
+				</div>
+				<div class="input-box">
+					<span class="icon">
+						<ion-icon name="mail-outline"></ion-icon>
+					</span>
+					<input type="Email" required>
+					<label> البريد الالكتروني للعمل</label>
+				</div>
+				<div class="input-box">
+					<span class="icon">
+						<ion-icon name="lock-closed-outline"></ion-icon>
+					</span>
+					<input type="Password" required>
+					<label>كلمة السر</label>
+                     </div>
+					<div class="remember-forget">
+						<label><input type="checkbox">تذكرني</label>
+						<a href="#">نسيت كلمة السر؟</a>
+					</div>				
+				<button type="submit" class="btn">دخول</button>
+			</form>
+		</div>
+	</div>
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

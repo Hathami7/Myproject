@@ -1,0 +1,208 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+    }
+    body{
+   
+        display: flex;
+    background-color: rgb(228, 228, 247)
+    
+    }
+    
+    ul{
+        position: relative;
+        height: 95%;
+    }
+    
+    
+   
+    .menu{
+        background-color: #162938;
+        width: 40px;
+        height: 150vh;
+        padding: 20px;
+        overflow: hidden;
+       transition: .5s;
+    }
+    ul li a{
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        padding: 12px;
+        margin: 10px 0;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        transition: .5s;
+    }
+    ul li a:hover{
+        background-color: #ffffff55;
+    }
+    .log-out{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        
+    }
+    .log-out a:hover{
+        background-color: #a00;
+    }
+    ul li a i{
+    font-size: 25px;
+    color: #fff;
+    
+    }
+   
+    
+   
+    .menu:hover{
+    width: 260px;
+    }
+    
+
+    
+      
+      
+            
+         
+
+            header{
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 1px;
+                padding: 20px 100px;
+                display: flex;
+                background: #162938;
+                justify-content: space-between;
+                align-items: center;
+                z-index: 99;
+            }
+
+            
+
+
+       .iT-list{
+        color: #fff;
+
+        text-align: center;
+    
+        width: 170%;
+        
+        padding: 10px;
+        
+        margin-top: 70px;
+
+        margin-right: 50px;
+        
+        background:   #162938;
+        
+        border-radius: 10px;
+        
+        }
+
+        .table{
+          border-collapse: collapse;
+          margin: 25px 0 ;
+          font-size: 15px;
+          min-width: 100%;
+          overflow: hidden;
+          border-radius:  5px 5px  0 0 ;
+
+        }
+      
+            .table th , .table td{
+                color: #fff;
+                padding: 12px 17px;
+            }
+            
+            .table tbody tr:last-of-type{
+                border-bottom: 3px solid  rgb(110, 90, 181);
+            }
+
+
+            
+               .CS-list{
+                color: #fff;
+
+                text-align: center;
+    
+                width: 170%;
+                
+                padding: 10px;
+                
+                margin-top: 70px;
+        
+                margin-right: 50px;
+                
+                background:   #162938;
+                
+                border-radius: 10px;
+                
+                }
+        
+            
+               
+        
+                      
+                    
+                       .IS-list{
+                        color: #fff;
+
+                        text-align: center;
+    
+                        width: 170%;
+                        
+                        padding: 10px;
+                        
+                        margin-top: 70px;
+                
+                        margin-right: 50px;
+                        
+                        background:   #162938;
+                        
+                        border-radius: 10px;
+                        
+                        }
+                        .button-container {
+                            position: fixed;
+                            bottom: 20px;
+                            left: 50%;
+                            transform: translateX(-50%);
+                          }
+                          
+                          .animated-button {
+                            border: none;
+                            padding: 10px 20px;
+                            background-color: #7d3fcf;
+                            color: #fff;
+                            font-size: 16px;
+                            cursor: pointer;
+                            overflow: hidden;
+                            position: relative;
+                          }
+                          
+                          .animated-button::before {
+                            content: "";
+                            position: absolute;
+                            top: 0;
+                            left: -100%;
+                            width: 100%;
+                            height: 100%;
+                            background-color: rgba(255, 255, 255, 0.4);
+                            transition: left 0.3s ease-in-out;
+                          }
+                          
+                          .animated-button:hover::before {
+                            left: 0;
+                          }
+                          
+                          
+    
+
+                   

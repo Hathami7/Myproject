@@ -1,0 +1,163 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+    }
+    body{
+   
+        display: flex;
+    background-color: rgb(228, 228, 247)
+    
+    }
+    
+    ul{
+        position: relative;
+        height: 95%;
+    }
+    
+    
+   
+    .menu{
+        background-color: #162938;
+        width: 40px;
+        height: 99vh;
+        padding: 20px;
+        overflow: hidden;
+       transition: .5s;
+    }
+    ul li a{
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        padding: 12px;
+        margin: 10px 0;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        transition: .5s;
+    }
+    ul li a:hover{
+        background-color: #ffffff55;
+    }
+    .log-out{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        
+    }
+    .log-out a:hover{
+        background-color: #a00;
+    }
+    ul li a i{
+    font-size: 25px;
+    color: #fff;
+    
+    }
+   
+    
+   
+    .menu:hover{
+    width: 360px;
+    }
+    
+
+    
+      
+      
+            
+         
+
+            header{
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 1px;
+                padding: 20px 100px;
+                display: flex;
+                background: #162938;
+                justify-content: space-between;
+                align-items: center;
+                z-index: 99;
+            }
+            .company-box {
+                background: #ffffff;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 10);
+padding: 90px;
+border-radius: 70px;
+    padding-top: 7vh;
+    height: 90vh;
+    margin: 0 25rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+    width: 60;
+}
+.text1{
+   margin-right: 30px;
+}
+               
+            
+            
+            h2 {
+                margin-top: 0;
+            }
+            
+            .submission-buttons {
+                margin-top: 20px;
+            }
+            
+            button {
+                padding: 10px 10px;
+                margin-right: 25px;
+                border: none;
+                border-radius: 5px;
+                font-size: 14px;
+                cursor: pointer;
+            }
+            
+           
+            #image-input {
+                display: none;
+              }
+              
+              #image-input + label {
+                cursor: pointer;
+                border: 1px solid #ccc;
+                margin-right: 60px;
+                border-radius: 5px;
+              }
+              
+              
+              
+              #image-input + label i {
+                font-size: 60px;
+              }
+              select {
+               
+                width: 180px;
+                height: 30px;
+                border: 1px solid #ddd;
+                padding: 5px;
+                  }
+                  
+                  select:focus {
+                    outline: none;
+                    border-color: #000;
+                  }
+              
+              
+              
+              option {
+                padding: 5px;
+                color: #000;
+              }
+             
+             
+
+        
+
+
+

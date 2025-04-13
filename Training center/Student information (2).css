@@ -1,0 +1,172 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    color:white;
+    font-family: sans-serif;
+    }
+    body{
+    
+        background-color: rgb(228, 228, 247);
+        display: flex;
+    
+    }
+    
+    ul{
+    
+        position: relative;
+        height: 95%;
+    }
+    
+    .img-place{
+        width: 50px;
+        height: 70px;
+        flex-shrink: 0;
+    
+    }
+    .img-place img{
+        width: 100%;
+        size: 90px;
+        height: 50px;
+        
+    }
+    
+    .menu{
+        
+        background-color: #123;
+        width: 40px;
+        height: 350vh;
+        padding: 20px;
+        overflow: hidden;
+       transition: .5s;
+    }
+    ul li a{
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        transition: .5s;
+    }
+    ul li a:hover{
+        background-color: #ffffff55;
+    }
+    .log-out{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        
+    }
+    .log-out a:hover{
+        background-color: #a00;
+    }
+    ul li a i{
+    font-size: 25px;
+    
+    }
+    .profile{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .profile h3{
+    
+        font-size: medium;
+        text-transform: capitalize;
+    }
+    .menu:hover{
+    width: 260px;
+    }
+     .title-info img{
+        font-size: small;
+     }
+
+     header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 70%;
+        height: 1px;
+        padding: 30px 187.9px;
+        display: flex;
+        background: #123;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 99;
+    }
+
+
+    .iT {
+
+        margin-top: 20px;
+
+        text-transform: cpitalize;
+        }
+       .list{
+
+        text-align: right;
+    
+        width: 130%;
+        
+        padding: 10px;
+
+        margin-top: 70px;
+        
+        margin-right: 50px;
+        
+        background:   #2f0459;
+        
+        border-radius: 10px;
+        
+        box-shadow: 0 10px 15px rgb(15, 1, 1);
+        }
+
+        .table{
+          border-collapse: collapse;
+          margin: 15px 0 ;
+          font-size: 15px;
+          min-width: 100%;
+          overflow: hidden;
+          border-radius:  5px 5px  0 0 ;
+
+        }
+        table thead tr{
+
+            color: #fff;
+            
+            background: rgb(110, 90, 181);
+            
+            text-align: center;
+            
+            font-weight: bold;
+            }
+            .table th , .table td{
+                padding: 12px 17px;
+                text-align: center;
+            }
+            
+            .table tbody tr:last-of-type{
+                border-bottom: 3px solid  rgb(110, 90, 181);
+            }
+
+         
+              .custom-button {
+                display: inline-block;
+                padding: 6px 20px;
+                border-radius: 10px;
+                cursor: pointer;
+                background: transparent;
+                border: 1px solid #ffffff; 
+              }
+              
+              .custom-button:hover {
+                background-color: #4545ff;
+                transition: 0.5rem;
+              }
+
+
+              
